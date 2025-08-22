@@ -31,7 +31,7 @@ ul {
 
 
 .container {
-     max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -54,8 +54,44 @@ ul {
     max-width: 200px;
 }
 
+.headerbmw {
+
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bmw {
+    max-width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.welcome {
+    margin-top: 15px;
+    text-align: center;
+}
+
 img {
     max-width: 700px;
     width: 100%;
     height: auto;
+}
+
+.menusecond {
+    justify-content: center;
+}
+
+.bodysection {
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.textbox {
+    background-color: white;
+    max-width: 600px;
+    padding: 40px;
+    text-align: left;
+
 }
