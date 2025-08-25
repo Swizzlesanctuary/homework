@@ -3,35 +3,260 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: url("/2/img/BG.jpg")no-repeat center center / cover;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 96px;
     padding: 20px 300px;
-    background-color: white;
-    max width: 1920px;
-    margin: 1 auto;
-    border: 1px;
+    max-width: 1920px;
+    margin: 0 auto;
+    border: 1px solid white;
     border-radius: 16px;
-
 }
-
+.logo{
+    max-width: 208px;
+    max-height: 56px;
+}
 
 ul {
     display: flex;
-    gap: 0px;
     list-style: none;
-    justify-content: center;
-    align-items: center;
+    gap: 24px;
 }
-li{display: flex;}
 
 li {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 94px;
     height: 48px;
-    text-align: center;
-     justify-content: center;
+}
+
+li.contact {
+    background-color: #A53DFF;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+
+.bodyfirst {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 126px 0;
+    gap: 136px;
+
+}
+
+mark {
+    background-color: pink;
+}
+
+.containerleft {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 648px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tittle1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 84px;
+
+}
+
+.description {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 48px;
+    background-color: #A53DFF;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button1 {
+  display: flex;
+  width: 648px;        
+  margin-top: 24px;
+  color: #424E60;
+}
+
+.button1 .box {
+  flex: 1;
+  text-align: center;
+  padding: 16px;
+  background: rgba(237, 216, 255, 0.5);
+  min-width: 0;        
+}
+
+.button1 .box + .box {
+  border-left: 1px solid white;
+}
+
+.fifteen,
+.fifty,
+.fiftyeight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    background-color: rgba(237, 216, 255, 0.5);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.portrait1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   max-width: ; 536px;
+    height: 636px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.second-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 64px 112px;
+    gap: 136px;
+}
+
+.contentright {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 536px;
+}
+
+.iam {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.description2 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.buttons2 {
+    display: flex;
+    gap: 16px;
+}
+
+.myproject,
+.downloadcv {
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.myproject {
+    width: 132px;
+    background-color: #A53DFF;
+    color: white;
+    border: none;
+}
+
+.downloadcv {
+    width: 190px;
+    background-color: white;
+    color: #A53DFF;
+    border: 1px solid #A53DFF;
+}
+
+
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 140px 300px;
+    gap: 136px;
+}
+
+
+.thirdleft {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.workprocess {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #132238;
+}
+
+.lorem {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #87909D
+}
+
+.researchcard {
+    background-color: yellow;
+    width: 312px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+
+}
+
+.calendar {
+    color: white;
+    background-color: #A53DFF;
+    width: 24px;
+    height: 26, 5px;
+    padding: 20px;
+
 }
