@@ -226,6 +226,7 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    max-width: 529px;
 }
 
 .workprocess {
@@ -251,16 +252,80 @@ h3 {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-
-
+    margin: 24px;
+    margin-top: 0;
 }
 
 .inner-researchcard {
     padding: 32px;
 }
 
+.designcard {
+    background-color: whitesmoke;
+    width: 312px;
+    height: 276px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 24px;
+    margin-bottom: 0;
+}
+
+.inner-designcard {
+    padding: 32px;
+}
+
+.analyzecard {
+    background-color: whitesmoke;
+    width: 312px;
+    height: 276px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 24px;
+}
+
+.inner-analyzecard {
+    padding: 32px;
+}
+
+.launchcard {
+    background-color: whitesmoke;
+    width: 312px;
+    height: 276px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 24px;
+    margin-bottom: 0;
+}
+
+.inner-launchcard {
+    padding: 32px;
+}
+
 .calendar {
-    color: white;
+    color: rgb(165, 61, 255);
+    background-color: white;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 26px;
+    border: none;
+    border-radius: 6px;
+}
+
+.text-calendar {
+    padding-top: 32px;
+}
+
+.calendar {
+    color: #fff;
     background-color: #A53DFF;
     padding: 20px;
     font-size: 24px;
@@ -268,4 +333,47 @@ h3 {
     border: none;
     border-radius: 6px;
 }
-.text-calendar {padding-top: 32px;}
+
+.launch {
+    color: rgb(165, 61, 255);
+    background-color: rgb(229, 206, 236);
+    padding: 20px;
+    font-size: 24px;
+    line-height: 26px;
+    border: none;
+    border-radius: 6px;
+}
+
+.analyze {
+    color: rgb(165, 61, 255);
+    background-color: rgb(229, 206, 236);
+    padding: 20px;
+    font-size: 24px;
+    line-height: 26px;
+    border: none;
+    border-radius: 6px;
+}
+
+.design {
+    color: rgb(165, 61, 255);
+    background-color: rgb(229, 206, 236);
+    padding: 20px;
+    font-size: 24px;
+    line-height: 26px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.columnright {
+    padding-top: 24px;
+    margin-left: 0;
+    padding-left: 0;
+
+
+}
+
+.thirdright {
+    display: flex;
+    flex-direction: row;
+}
