@@ -5,7 +5,8 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background: url("/2/img/BG.jpg")no-repeat center center / cover;
+    background: url("/2/img/background.jpg") no-repeat center center / cover;
+    background-position: top;
 }
 
 .header .container {
@@ -19,7 +20,8 @@ body {
     border: 1px solid white;
     border-radius: 16px;
 }
-.logo{
+
+.logo {
     max-width: 208px;
     max-height: 56px;
 }
@@ -101,22 +103,22 @@ mark {
 }
 
 .button1 {
-  display: flex;
-  width: 648px;        
-  margin-top: 24px;
-  color: #424E60;
+    display: flex;
+    width: 648px;
+    margin-top: 24px;
+    color: #424E60;
 }
 
 .button1 .box {
-  flex: 1;
-  text-align: center;
-  padding: 16px;
-  background: rgba(237, 216, 255, 0.5);
-  min-width: 0;        
+    flex: 1;
+    text-align: center;
+    padding: 16px;
+    background: rgba(237, 216, 255, 0.5);
+    min-width: 0;
 }
 
-.button1 .box + .box {
-  border-left: 1px solid white;
+.button1 .box+.box {
+    border-left: 1px solid white;
 }
 
 .fifteen,
@@ -142,7 +144,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-   max-width: ; 536px;
+    max-width: 536px;
     height: 636px;
     border-radius: 25px;
     background-color: white;
@@ -241,10 +243,11 @@ h3 {
 }
 
 .researchcard {
-    background-color: yellow;
+    background-color: whitesmoke;
     width: 312px;
     height: 276px;
     display: flex;
+    border-radius: 12px;
     flex-direction: column;
     justify-content: left;
     align-items: left;
@@ -252,11 +255,17 @@ h3 {
 
 }
 
+.inner-researchcard {
+    padding: 32px;
+}
+
 .calendar {
     color: white;
     background-color: #A53DFF;
-    width: 24px;
-    height: 26, 5px;
     padding: 20px;
-
+    font-size: 24px;
+    line-height: 26px;
+    border: none;
+    border-radius: 6px;
 }
+.text-calendar {padding-top: 32px;}
