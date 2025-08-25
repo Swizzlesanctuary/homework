@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    padding: 20px 300px;
+    background-color: white;
+    max width: 1920px;
+    margin: 1 auto;
+    border: 1px;
+    border-radius: 16px;
+
+}
+
+
+ul {
+    display: flex;
+    gap: 0px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+li{display: flex;}
+
+li {
+    display: flex;
+    width: 94px;
+    height: 48px;
+    text-align: center;
+     justify-content: center;
+    align-items: center;
+}
