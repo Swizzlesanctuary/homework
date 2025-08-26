@@ -119,6 +119,7 @@ mark {
 
 .button1 .box+.box {
     border-left: 1px solid white;
+    border-radius: 6px;
 }
 
 .fifteen,
