@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.relative-box {
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    box-shadow: 20px 30px 90px blue;
+    position: relative;
+}
+
+
+.absolute-box {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    box-shadow: 20px 40px 90px purple;
+}
+
+.fixed-box{ height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    top: 800px;
+    left: 1290px;
+    box-shadow: 20px 40px 90px green;
+    
+
+}
+.fixed-box:hover{
+    transform: scale(1.2);
+}
