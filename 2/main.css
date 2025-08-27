@@ -795,3 +795,17 @@ h4 {
 
     max-width: 208px;
 }
+
+.support {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    font-size: 100px;
+    color: rgb(151, 6, 42);
+    text-shadow: -10px 5px 70px rgb(119, 89, 119);
+}
+
+.support :hover {
+    transform: rotate(360deg);
+    color: orange;
+}
