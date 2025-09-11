@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.head {
+    background: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    max-height: 64px;
+}
+
+.header>img {
+    height: auto;
+    width: auto;
+    display: block;
+    padding-left: 6px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.menu-top {
+    display: flex;
+    align-items: center;
+    gap: 149px;
+}
+
+.ul-top {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.icons-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-right: 46px;
+}
+
+.icons-top img {
+    height: auto;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.logo {
+    margin: 5 9px;
+    size: 46px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-left: 59px;
+    margin-right: 59px;
+    max-width: 1322px;
+    padding-top: 16px;
+}
+
+.menu-bottom {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    align-items: flex-start;
+    color: white;
+    background-color: green;
+    width: 113px;
+    height: 28px;
+    padding: 5px 13px;
+}
+
+.text-bottom {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 741px;
+}
+
+.image-text {
+    display: grid;
+    margin: 74px 35px 0 26px;
+}
+
+
+.column,
+.column1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.column img {
+
+    max-width: 1027px;
+    height: auto;
+    border-radius: 30px;
+    border: none;
+
+}
+
+
+.column1 {
+    background: rgba(27, 123, 58, .75);
+    align-self: center;
+    border: none;
+    border-radius: 30px;
+    justify-self: flex-end;
+    width: 672px;
+    z-index: 2;
+    max-height: 460px;
+    justify-content: center;
+}
+
+.textwithoutimage {
+    background: rgba(27, 123, 58, .75);
+    color: #fff;
+    padding: 28px;
+    border-radius: 22px;
+}
+
+
+h3,
+p {
+    background: transparent;
+    opacity: 1;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 104px;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "Montserrat";
+
+}
+
+#p1 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    padding-bottom: 5px;
+}
+
+
+#button1 {
+    font-size: 24px;
+    max-width: 197px;
+    max-height: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 25px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin-left: 26px;
+    margin-right: 19px;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    margin-bottom: 25px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 447px;
+    border: none;
+    border-radius: 26px;
+    background-color: green;
+    border-radius: 26px;
+    padding: 17px 21px;
+}
+
+#imgitem {
+    border-radius: 30px;
+    margin-bottom: 32px;
+}
+
+button {
+    background-color: white;
+    border-radius: 16px;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 5px 10px 10px rgb(53, 49, 49);
+}
+
+h2 {
+    padding-left: 51px;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+.galleryboth {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 88px;
+}
+
+.footertext {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 855px;
+}
+
+.copy {
+    padding-top: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
