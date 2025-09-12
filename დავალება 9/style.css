@@ -15,6 +15,11 @@
 .head {
     background: black;
     color: white;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    max-height: 64px;
 }
 
 .header {
@@ -67,18 +72,10 @@
     size: 46px;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin-left: 59px;
-    margin-right: 59px;
-    max-width: 1322px;
-    padding-top: 16px;
-}
+.menubottom{margin-top: 20px;}
 
 .menu-bottom {
+    border-top: 1px solid white;
     display: flex;
     align-content: center;
     align-items: center;
@@ -268,4 +265,16 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    . image-text {
+        flex-direction: column;
+        
+    }
+.column1 {
+    z-index: 0
+;
+}
 }
