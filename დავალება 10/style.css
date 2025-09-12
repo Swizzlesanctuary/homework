@@ -166,11 +166,119 @@ h1 {
         flex-wrap: wrap;
         padding-left: 30px;
         padding-right: 30px;
-        
+
     }
 
     .header-container {
         padding-top: 3px;
     }
 
+}
+
+
+.clients-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+.clients-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clients-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 152px;
+
+}
+
+.manage-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.manage-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 542px;
+    text-wrap: wrap;
+}
+
+.manage-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 16px;
+    margin-bottom: 42px;
+    border-radius: 8px;
+    border: none;
+    gap: 127px;
+}
+
+.manage-each {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+    padding: 24px 16px;
+}
+
+.unseen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.unseenleft {
+    max-width: 442px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.unseenright {
+    max-width: 661px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.unseenright button {
+
+    padding-top: 14px;
+    padding-left: 32px;
+    padding-bottom: 14px;
+    padding-right: 32px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    max-width: 151px;
 }
