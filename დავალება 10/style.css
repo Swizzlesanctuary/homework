@@ -349,3 +349,43 @@ h1 {
 .cardimg {
     max-width: 48px;
 }
+
+.tesla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 144px;
+    padding-right: 144px;
+    gap: 78px;
+    background-color: rgba(245, 247, 250, 1);
+
+}
+
+.teslaright {
+    max-width: 326px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 748px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#teslabutton {
+    max-width: 223px;
+    text-align: inline;
+    background-color: rgba(245, 247, 250, 1);
+    padding: 0;
+}
