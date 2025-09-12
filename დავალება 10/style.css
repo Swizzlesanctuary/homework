@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 .inter {
@@ -11,6 +12,11 @@
     font-style: normal;
 }
 
+.header {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+}
 
 .header-container {
     max-width: 1440px;
@@ -20,7 +26,8 @@
     padding-left: 105px;
     padding-right: 120px;
     flex-direction: row;
-    margin-top: 30px;
+    padding-top: 30px;
+
 }
 
 ul {
@@ -42,8 +49,15 @@ ul li {
     display: inline;
 }
 
+.buttons-header {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+
+}
+
 button {
-    max-width: 91px;
+    max-width: 77px;
     padding: 10px 20px;
     color: green;
     background-color: white;
@@ -51,6 +65,7 @@ button {
     border-radius: 6px;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 #clicked {
@@ -64,4 +79,98 @@ button {
     font-weight: 500;
     font-family: "inter";
     text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.second {
+    padding-left: 144px;
+    padding-right: 144px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+
+}
+
+.secondcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    width: 100%;
+    gap: 104px;
+
+}
+
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.imageright {
+    max-width: 391px;
+    align-self: center;
+    display: flex;
+    padding-right: 144px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .secondcontainer,
+    .header-container,
+    .second {
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .secondcontainer {
+        flex-direction: column;
+        padding-top: 30px;
+
+    }
+
+    .left-column {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .header-container {
+        max-width: 768px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+
+    .header-container {
+        padding-top: 3px;
+    }
+
 }
