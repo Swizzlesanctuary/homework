@@ -431,6 +431,7 @@ h1 {
     align-items: center;
     gap: 24px;
     padding-top: 16px;
+    padding-bottom: 95px;
 
 }
 
@@ -441,12 +442,10 @@ h1 {
     align-items: center;
     border-radius: 8px;
     border: none;
-
-
 }
 
 .carring-each-text {
-    z-index: 10;
+    z-index: 2;
     background-color: #F5F7FA;
     display: flex;
     flex-direction: column;
@@ -459,10 +458,42 @@ h1 {
     margin-top: -99px;
     box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
     border-radius: 8px;
-
 }
 
 .carring-image {
     max-width: 368px;
     align-self: top;
+}
+
+.pellen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    background-color: rgba(245, 247, 250, 1);
+    padding-top: 32px;
+    margin-top: 94px;
+}
+
+.pellen-text {
+    max-width: 887px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    flex-direction: column;
+    padding-bottom: 32px;
+
+}
+
+#demobutton {
+    max-width: 178px;
+    text-align: inline;
+    background-color: green;
+    color: white;
+    padding: 0;
+    text-wrap: nowrap;
+    padding: 14px 32px;
 }
