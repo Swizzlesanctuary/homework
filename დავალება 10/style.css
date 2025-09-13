@@ -441,6 +441,8 @@ h1 {
     align-items: center;
     border-radius: 8px;
     border: none;
+
+
 }
 
 .carring-each-text {
@@ -454,6 +456,9 @@ h1 {
     padding: 16px;
     max-width: 317px;
     text-align: center;
+    margin-top: -99px;
+    box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
+    border-radius: 8px;
 
 }
 
