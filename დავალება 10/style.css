@@ -356,7 +356,6 @@ h1 {
     align-items: center;
     flex-direction: row;
     margin-top: 48px;
-    margin-bottom: 48px;
     padding-top: 38px;
     padding-bottom: 38px;
     padding-left: 144px;
@@ -383,9 +382,82 @@ h1 {
     align-items: center;
 }
 
-#teslabutton {
+.teslabutton {
     max-width: 223px;
     text-align: inline;
     background-color: rgba(245, 247, 250, 1);
     padding: 0;
+}
+
+.carring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 48px;
+    padding-bottom: 95px;
+    max-width: 1440px;
+}
+
+.carring-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 48px;
+    padding-bottom: 95px;
+    max-width: 1440px;
+    max-height: 366px;
+}
+
+.carring-text {
+    max-width: 628px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.carring-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding-top: 16px;
+
+}
+
+.carring-card-each {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+}
+
+.carring-each-text {
+    z-index: 10;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    max-width: 317px;
+    text-align: center;
+
+}
+
+.carring-image {
+    max-width: 368px;
+    align-self: top;
 }
