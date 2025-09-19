@@ -1,0 +1,139 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    background: rgb(67, 67, 96);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: #111;
+}
+
+.page {
+    background: #fff;
+    width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+    padding: 40px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.header p {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.header h1 {
+    letter-spacing: .5px;
+}
+
+
+h2 {
+    color: #1f3aa8;
+    font-size: 18px;
+    margin: 18px 0 10px;
+    text-align: left;
+}
+
+
+label {
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 4px 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 1fr;
+    grid-auto-rows: auto;
+    gap: 10px 20px;
+    align-items: center;
+}
+
+.info-grid label {
+    justify-self: end;
+}
+
+.request>p {
+    margin-bottom: 8px;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.field-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 20px 24px;
+    align-items: start;
+}
+
+
+
+.field-row label {
+    align-self: start;
+}
+
+.approval-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 24px;
+    width: 100%;
+}
+
+.approval-grid .pair {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 8px;
+}
+
+.approval-grid label {
+    justify-self: start;
+}
+
+.approval-grid input {
+    width: 100%;
+}
+
+
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10x 20px;
+}
+
+.service-grid .pair {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px 20px;
+    align-items: center;
+}
+
+.service-grid label {
+    justify-self: end;
+}

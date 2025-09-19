@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <p>ABC Solutions</p>
+            <h1>SERVICE REQUEST FORM</h1>
+        </div>
+
+        <section class="info">
+            <h2>Customer Information:</h2>
+            <div class="info-grid">
+                <label for="custName">Customer Name:</label>
+                <input id="custName" type="text">
+                <label for="contactNumber">Contact Number:</label>
+                <input id="contactNumber" type="text">
+                <label for="homeAddress">Home Address:</label>
+                <input id="homeAddress" type="text">
+                <label for="emailAddress">Email Address:</label>
+                <input id="emailAddress" type="text">
+            </div>
+        </section>
+
+        <section class="request">
+            <h2>Service Request Details:</h2>
+
+            <p>Requested:</p>
+            <div class="radio-row">
+                <label><input type="radio" name="requestType" value="Repair"> Repair</label>
+                <label><input type="radio" name="requestType" value="Maintenance"> Maintenance</label>
+                <label><input type="radio" name="requestType" value="Installation"> Installation</label>
+                <label><input type="radio" name="requestType" value="Other"> Other</label>
+            </div>
+
+            <div class="field-row" style="margin-top:12px;">
+                <label for="desc">Description of Service Requested:</label>
+                <input id="desc" type="text">
+                <label for="dtReq">Date and Time Requested:</label>
+                <input id="dtReq" type="datetime-local">
+            </div>
+
+            <div style="margin-top:14px;">ß
+                <p style="margin-bottom:8px;">Urgency Level:</p>
+                <div class="radio-row">
+                    <label><input type="radio" name="urgency" value="Low"> Low</label>
+                    <label><input type="radio" name="urgency" value="Medium"> Medium</label>
+                    <label><input type="radio" name="urgency" value="High"> High</label>
+                    <label><input type="radio" name="urgency" value="Emergency"> Emergency</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="approval">
+            <h2>Approval:</h2>
+            <div class="approval-grid">
+                <div class="pair">
+                    <label for="applicantName">Applicant Name:</label>
+                    <input id="applicantName" type="text">
+                </div>
+                <div class="pair">
+                    <label for="reqDate">Request Submission Date:</label>
+                    <input id="reqDate" type="date">
+                </div>
+            </div>
+        </section>
+
+        <section class="service-personnel">
+            <h2>Service Personnel:</h2>
+            <div class="service-grid">
+                <div class="pair">
+                    <label for="completedBy">Completed By:</label>
+                    <input id="completedBy" type="text">
+                </div>
+                <div class="pair">
+                    <label for="completedDate">Date:</label>
+                    <input id="completedDate" type="date">
+                </div>
+                <div class="pair">
+                    <label for="approvedBy">Approved By:</label>
+                    <input id="approvedBy" type="text">
+                </div>
+                <div class="pair">
+                    <label for="approvedDate">Date:</label>
+                    <input id="approvedDate" type="date">
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
