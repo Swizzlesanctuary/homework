@@ -301,6 +301,35 @@ span {
 }
 
 
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 8.125rem;
+    margin-right: 8.125rem;
+    margin-top: 4.563rem;
+}
+
+
+.blacktexth, .blacktextp {
+    color: var(--black) !important;
+}
+.blacktexth{
+    font-family:var(--font-heading);
+   font-size: var(--fs-h1);
+
+}
+.blacktextp{
+    font-family:var(--font-body);
+   font-size: var(--fs-body);
+   color: var(--black-50);
+   
+}
+
+
+
+
 
 
 
@@ -373,6 +402,18 @@ span {
         gap: 1.875rem;
 
     }
+  .imageTextcontentbody {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 5.179rem;
+        gap: 1.875rem;
+
+    }
+
+    
 
     .textbutton {
         display: flex;
