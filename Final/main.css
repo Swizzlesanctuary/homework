@@ -371,40 +371,36 @@ span {
 
 footer {
     display: flex;
-    flex-direction: row;
     background-color: var(--greenColor);
     justify-content: center;
 }
 
 .footercontainer {
-    display: flex;
-    align-items: center;
     width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 
 .footercontent {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    align-items: space-between;
+    width: 100%;
     max-width: 73.625rem;
     padding: 3.125rem 8.188rem;
-    width: 100%;
 }
 
 .footerlogos {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    max-width: 15.157rem;
     color: var(--backgroundColor);
     gap: 1.25rem;
 }
 
 .footercopy {
-    display: flex;
-    justify-content: flex-end;
+    color: var(--backgroundColor);
 }
 
 
