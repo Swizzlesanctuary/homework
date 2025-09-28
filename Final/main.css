@@ -581,6 +581,12 @@ input[type=submit]:hover {
 
 }
 
+h4{
+    font-size: var(--fs-h4);
+    color: var(--black);
+}
+
+
 
 
 
@@ -931,6 +937,81 @@ input[type=submit]:hover {
     }
 
 
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    margin-top: 1rem;
+    border: 0.063rem solid black;
+    border-radius: 0.063rem;
+    resize: vertical;
+    color: var(--black);
+    height: 2.375rem;
+    display: flex;
+    margin-bottom: 1.313rem;
+    margin-top: 1.313rem;
+}
+
+label {
+    color: var(--black);
+    font-size: var(--fs-sub);
+    margin-bottom: 1.313rem;
+    margin-top: 1.313rem;
+}
+
+input[type=submit] {
+    background-color: var(--black);
+    color: var(--backgroundColor);
+    border: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.688rem 15.688rem;
+}
+
+input[type=submit] {
+    padding: 0.688rem 1rem;
+    min-width: 0;
+  }
+
+
+.contactcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 3.688rem;
+
+
+}
+.contactsections {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 20.938rem;
+    gap: 1.875rem;
+
+}
+
+
+.contactcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 1.313rem;
+    text-align: left;
+    width: 100%;
+
+}
+.map{
+    display: flex;
+    width: 100%;
+}
+
+
+    
 
 
 }
