@@ -540,7 +540,7 @@ h4 {
     color: var(--black);
 }
 
-@media (max-width: 375px) {
+@media (orientation: portrait) {
     .menu-close {
         display: block;
     }
@@ -610,7 +610,7 @@ h4 {
     .content {
         display: flex;
         flex-direction: column;
-        max-width: 20.938rem;
+    
         width: 100%;
     }
 
