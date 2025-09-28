@@ -334,10 +334,18 @@ span {
 
 .section4 {
     display: flex;
+    margin-top: 6.375rem;
+    margin-bottom: 3.375rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section4container {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6.375rem;
+    max-width: 73.5rem;
 }
 
 .cards{
