@@ -10,7 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             <div class="headercontent">
                 <img class="logo" src="/img/logo.svg">
                 <i class="fa-solid fa-bars hamburger" id="hamburger"></i>
-               <ul>
+                <ul>
                     <li><a href="/index.html" style="text-decoration: none; color:white">Home</a></li>
                     <li><a href="/portfolio.html" style="text-decoration: none; color: white;">Portfolio</a>
                     </li>
@@ -42,14 +42,14 @@
                     <div class="section2text">
                         <div class="section2textcontent">
                             <h4 class="h1black">Contact Us</h1>
-                            <span>Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit.</span>
+                                <span>Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit.</span>
                         </div>
                     </div>
                     <div class="contactcontainer">
                         <div class="contactsections">
                             <div class="contactcontent">
-                                <form action="/action_page.php" >
+                                <form id="form">
                                     <label for="fname">Name</label>
                                     <input type="text" id="fname" name="name">
 
@@ -59,8 +59,10 @@
                                     <label for="message">Message</label>
                                     <textarea id="message" name="message" style="height:200px"></textarea>
 
-                                    <input type="submit" id="submit" value="Submit" id='form'>
+                                    <input type="submit" value="Submit">
                                 </form>
+
+                                <script src="form.js"></script>
 
 
                             </div>
@@ -120,8 +122,9 @@
     </footer>
 
 
- <script src="main.js"></script>
+    <script src="main.js"></script>
 
 
 </body>
+
 </html>
