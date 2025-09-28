@@ -58,6 +58,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+  document.querySelectorAll('.portfoliocards img').forEach(img => {
+    img.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+  });
+
+
+
+
 
 
 

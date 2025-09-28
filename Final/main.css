@@ -297,6 +297,7 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 6.875rem;
 }
 
 .blacktexth,
@@ -317,7 +318,7 @@ span {
 
 .section4 {
     display: flex;
-    margin-top: 6.375rem;
+    
     margin-bottom: 3.375rem;
     justify-content: center;
     align-items: center;
