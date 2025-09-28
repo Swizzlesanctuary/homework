@@ -340,6 +340,7 @@ span {
     align-items: center;
     width: 100%;
 }
+
 .section4container {
     display: flex;
     flex-direction: column;
@@ -348,7 +349,7 @@ span {
     max-width: 73.5rem;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -356,7 +357,8 @@ span {
     gap: 2.938rem;
 
 }
-.cardIndiv{
+
+.cardIndiv {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -367,7 +369,43 @@ span {
     gap: 1.125rem;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--greenColor);
+    justify-content: center;
+}
 
+.footercontainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.footercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    max-width: 73.625rem;
+    padding: 3.125rem 8.188rem;
+    width: 100%;
+}
+
+.footerlogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 15.157rem;
+    color: var(--backgroundColor);
+    gap: 1.25rem;
+}
+
+.footercopy {
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 
