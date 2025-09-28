@@ -803,4 +803,70 @@ footer {
     #buttonportfolio {
         margin-bottom: 1.875rem;
     }
+
+
+
+.servicesconteiner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21.188rem;
+}
+
+.servicescards {
+    display: flex;
+    flex-direction: column;
+    max-width: 76.688rem;
+    width: 100%;
+    gap: 3.125rem;
+}
+
+.servicescardind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.875rem 1.875rem;
+    box-shadow: 0.188rem 0.25rem 0.75rem 0.063rem var(--black-25);
+    gap: 2.813rem;
+    border-radius: 0.313;
+    border: none;
+}
+
+.servicecardtext {
+    display: flex;
+    flex-direction: column;
+    max-width: 17.438rem;
+    text-align: center;
+
+}
+
+.servicecardchecks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkind {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 0.25rem;
+
+}
+
+.fa-solid,
+.fa-check {
+    color: var(--greenColor);
+}
+
+.bigfont {
+    font-size: var(--fs-h1);
+    color: var(--black);
+}
+
+
+
 }
