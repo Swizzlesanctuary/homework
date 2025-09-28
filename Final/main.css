@@ -232,7 +232,6 @@ button:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 4.563rem;
 
 
 }
@@ -447,7 +446,6 @@ footer {
 .portfoliocards {
     max-width: 74.188rem;
     width: 100%;
-    padding: 3.438rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
