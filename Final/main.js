@@ -1,9 +1,9 @@
-// Full-screen mobile menu overlay (375px)
+
 (function () {
   const hamburger = document.getElementById('hamburger');
   if (!hamburger) return;
 
-  // Build overlay once
+
   const overlay = document.createElement('div');
   overlay.id = 'menuOverlay';
   overlay.setAttribute('aria-hidden', 'true');
@@ -18,7 +18,7 @@
 
   const panel = overlay.querySelector('.menu-panel');
 
-  // Clone your existing header <ul> so desktop stays untouched
+ 
   const sourceList = document.querySelector('.headercontent ul');
   if (sourceList) {
     const menuList = sourceList.cloneNode(true);
@@ -32,7 +32,6 @@
     overlay.setAttribute('aria-hidden', 'false');
     document.body.classList.add('no-scroll');
 
-    // Focus first link if available
     const firstLink = panel.querySelector('a, button');
     if (firstLink && firstLink.focus) firstLink.focus();
   }
@@ -44,22 +43,18 @@
     if (hamburger && hamburger.focus) hamburger.focus();
   }
 
-  // Events
   hamburger.addEventListener('click', openMenu);
   closeBtn.addEventListener('click', closeMenu);
 
-  // Click outside panel closes
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) closeMenu();
-  });
 
-  // Link click closes
   panel.addEventListener('click', (e) => {
     if (e.target.closest('a')) closeMenu();
   });
+const form = document.getElementById('form')
 
-  // Esc closes
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && overlay.classList.contains('open')) closeMenu();
-  });
+form.addEventListener('submit', (event) => {
+  event.preventDefault()
 })();
+
+
+
