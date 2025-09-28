@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
 
     --font-heading: "Crimson Text", system-ui, serif;
@@ -22,7 +23,6 @@
 
 
     --lineHeight: 1.125;
-
     --black: #212529;
     --backgroundColor: #ffffff;
     --greenColor: #74C89D;
@@ -60,31 +60,7 @@ body {
     width: 100%;
 }
 
-.header {
-    display: flex;
-    width: 100%;
-    background-color: var(--greenColor);
 
-}
-
-.headercontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 2.188rem 8.125rem;
-
-}
-
-.headercontent {
-    max-width: 73.438rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .Section1 {
 
@@ -111,13 +87,27 @@ body {
     background-color: var(--green-100);
 }
 
-.header ul {
+.header {
     display: flex;
-    gap: 1.875rem;
-    list-style: none;
-    color: var(--white-100);
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    background-color: var(--greenColor);
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2.25rem 8.125rem;
+}
+
+.headercontent {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hamburger {
@@ -147,14 +137,7 @@ li {
         11.688rem;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
 
-}
 
 .imageTextcontent {
     display: flex;
@@ -518,8 +501,7 @@ footer {
 
 }
 
-.fa-solid,
-.fa-check {
+.check {
     color: var(--greenColor);
 }
 
@@ -527,7 +509,6 @@ footer {
     font-size: var(--fs-h1);
     color: var(--black);
 }
-
 
 
 
@@ -549,17 +530,30 @@ footer {
 
     .header {
         width: 100%;
-        max-height: 2.375rem;
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-between;
-
     }
 
     .header ul {
         display: none;
     }
+
+    .headercontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .headercontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1.313rem 1.25rem;
+    }
+
 
     .hamburger {
         display: block !important;
@@ -580,7 +574,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-
+        width: 100%;
 
     }
 
@@ -806,66 +800,66 @@ footer {
 
 
 
-.servicesconteiner {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 21.188rem;
-}
+    .servicesconteiner {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 21.188rem;
+    }
 
-.servicescards {
-    display: flex;
-    flex-direction: column;
-    max-width: 76.688rem;
-    width: 100%;
-    gap: 3.125rem;
-}
+    .servicescards {
+        display: flex;
+        flex-direction: column;
+        max-width: 76.688rem;
+        width: 100%;
+        gap: 3.125rem;
+    }
 
-.servicescardind {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2.875rem 1.875rem;
-    box-shadow: 0.188rem 0.25rem 0.75rem 0.063rem var(--black-25);
-    gap: 2.813rem;
-    border-radius: 0.313;
-    border: none;
-}
+    .servicescardind {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.875rem 1.875rem;
+        box-shadow: 0.188rem 0.25rem 0.75rem 0.063rem var(--black-25);
+        gap: 2.813rem;
+        border-radius: 0.313;
+        border: none;
+    }
 
-.servicecardtext {
-    display: flex;
-    flex-direction: column;
-    max-width: 17.438rem;
-    text-align: center;
+    .servicecardtext {
+        display: flex;
+        flex-direction: column;
+        max-width: 17.438rem;
+        text-align: center;
 
-}
+    }
 
-.servicecardchecks {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
+    .servicecardchecks {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
-.checkind {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    gap: 0.25rem;
+    .checkind {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        gap: 0.25rem;
 
-}
+    }
 
-.fa-solid,
-.fa-check {
-    color: var(--greenColor);
-}
+    .check {
+        color: var(--greenColor);
+    }
 
-.bigfont {
-    font-size: var(--fs-h1);
-    color: var(--black);
-}
+    .bigfont {
+        font-size: var(--fs-h1);
+        color: var(--black);
+    }
+
 
 
 
