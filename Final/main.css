@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-
 :root {
-
     --font-heading: "Crimson Text", system-ui, serif;
     --font-body: "Work Sans", system-ui, sans-serif;
-
-
     --fs-h1: 2.5rem;
     --fs-h2: 2rem;
     --fs-h3: 1.75rem;
@@ -20,29 +16,22 @@
     --fs-sub: 1.25rem;
     --fs-body: 0.9375rem;
     --fs-label: 1rem;
-
-
     --lineHeight: 1.125;
     --black: #212529;
     --backgroundColor: #ffffff;
     --greenColor: #74C89D;
-
-
     --black-100: rgb(33 37 41 / 100%);
     --black-75: rgb(33 37 41 / 75%);
     --black-50: rgb(33 37 41 / 50%);
     --black-25: rgb(33 37 41 / 25%);
-
     --white-100: rgb(255 255 255 / 100%);
     --white-75: rgb(255 255 255 / 75%);
     --white-50: rgb(255 255 255 / 50%);
     --white-25: rgb(255 255 255 / 25%);
-
     --green-100: rgb(116 200 157 / 100%);
     --green-75: rgb(116 200 157 / 75%);
     --green-50: rgb(116 200 157 / 50%);
     --green-25: rgb(116 200 157 / 25%);
-
 }
 
 body {
@@ -60,11 +49,7 @@ body {
     width: 100%;
 }
 
-
-
-
 .Section1 {
-
     padding-left: 8.125rem;
     padding-right: 8.125rem;
     display: flex;
@@ -73,7 +58,6 @@ body {
     align-items: center;
     gap: 2.5rem;
     background-color: var(--green-100);
-
 }
 
 .section1container {
@@ -103,7 +87,6 @@ body {
 }
 
 .headercontent {
-
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -119,28 +102,20 @@ body {
     margin: 0.479rem 0.342rem;
 }
 
-
-
-
 ul {
     list-style-type: none;
     color: white;
-
     font-family: 'work Sans';
     font-size: var(--fs-sub);
 }
-
 
 li {
     display: inline;
 }
 
 .logo {
-    max-width:
-        11.688rem;
+    max-width: 11.688rem;
 }
-
-
 
 .imageTextcontent {
     display: flex;
@@ -157,7 +132,6 @@ li {
     flex-direction: column;
     align-items: flex-start;
     max-width: 26rem;
-
 }
 
 .illuImg {
@@ -177,8 +151,8 @@ h1 {
     font-size: var(--fs-h1);
     font-family: 'crimson text';
     color: var(--white-100);
-
 }
+
 .menu-close {
     display: none;
 }
@@ -213,16 +187,12 @@ button:hover {
     color: var(--backgroundColor);
 }
 
-
-
 .section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-
-
 }
 
 .section2text {
@@ -232,7 +202,6 @@ button:hover {
     align-items: center;
     padding-top: 3.75rem;
     padding-bottom: 3.438rem;
-
 }
 
 .section4text {
@@ -240,9 +209,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     padding-bottom: 3.438rem;
-
 }
 
 .section2textcontent {
@@ -268,7 +235,6 @@ span {
 }
 
 .h1black {
-
     font-size: var(--fs-h1);
     font-family: 'crimson text';
     color: var(--black-100);
@@ -285,8 +251,6 @@ span {
     gap: 4.25rem;
     max-width: 72.436rem;
 }
-
-
 
 .blackbutton {
     text-wrap: nowrap;
@@ -320,7 +284,6 @@ span {
     justify-content: center;
 }
 
-
 .section3 {
     display: flex;
     flex-direction: column;
@@ -329,14 +292,12 @@ span {
     margin-top: 3.722rem;
 }
 
-
 .imageTextcontentbody {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .blacktexth,
 .blacktextp {
@@ -346,14 +307,12 @@ span {
 .blacktexth {
     font-family: var(--font-heading);
     font-size: var(--fs-h1);
-
 }
 
 .blacktextp {
     font-family: var(--font-body);
     font-size: var(--fs-body);
     color: var(--black-50);
-
 }
 
 .section4 {
@@ -379,7 +338,6 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2.938rem;
-
 }
 
 .cardIndiv {
@@ -408,7 +366,6 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 .footercontent {
@@ -440,14 +397,12 @@ footer {
     grid-template-rows: repeat(4, auto);
     gap: 3.438rem;
     justify-content: center;
-
 }
 
 .portfoliocontent {
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 #buttonportfolio {
@@ -480,8 +435,6 @@ footer {
     gap: 3.25rem;
     border-radius: 0.313;
     border: none;
-
-
 }
 
 .servicecardtext {
@@ -489,7 +442,6 @@ footer {
     flex-direction: column;
     max-width: 17.438rem;
     text-align: center;
-
 }
 
 .servicecardchecks {
@@ -504,7 +456,6 @@ footer {
     flex-direction: row;
     align-items: left;
     gap: 0.188rem;
-
 }
 
 .check {
@@ -567,7 +518,6 @@ input[type=submit]:hover {
     width: 100%;
     max-width: 73.75rem;
     gap: 1.875rem;
-
 }
 
 .contactcontainer {
@@ -575,16 +525,13 @@ input[type=submit]:hover {
     width: 100%;
     justify-content: center;
     padding-bottom: 5.875rem;
-
 }
 
 .contactcontent {
     display: flex;
     flex-direction: column;
     gap: 1.313rem;
-
     text-align: left;
-
 }
 
 h4 {
@@ -592,20 +539,10 @@ h4 {
     color: var(--black);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 375px) {
-
+    .menu-close {
+        display: block;
+    }
 
     #menuOverlay {
         position: fixed;
@@ -633,19 +570,19 @@ h4 {
     }
 
     #menuOverlay .menu-close {
-         position: absolute;
-  top: 1.094rem;
-  right: 1.094rem;
-  border: none;
-  outline: none;
-  background: none;
-  padding: 0;
-  width: 2.188rem;
-  height:2.188rem;
-  font-size: 2rem;
-  line-height: 1;
-  color: var(--white-100);
-  cursor: pointer;
+        position: absolute;
+        top: 1.094rem;
+        right: 1.094rem;
+        border: none;
+        outline: none;
+        background: none;
+        padding: 0;
+        width: 2.188rem;
+        height: 2.188rem;
+        font-size: 2rem;
+        line-height: 1;
+        color: var(--white-100);
+        cursor: pointer;
     }
 
     #menuOverlay ul {
@@ -665,14 +602,9 @@ h4 {
         font-size: 1.25rem;
     }
 
-   
-
     .no-scroll {
         overflow: hidden;
     }
-
-
-
 
     .content {
         display: flex;
@@ -680,7 +612,6 @@ h4 {
         max-width: 20.938rem;
         width: 100%;
     }
-
 
     .header {
         width: 100%;
@@ -697,7 +628,6 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
     }
 
     .headercontainer {
@@ -707,7 +637,6 @@ h4 {
         width: 100%;
         padding: 1.313rem 1.25rem;
     }
-
 
     .hamburger {
         display: block !important;
@@ -729,9 +658,7 @@ h4 {
         justify-content: center;
         align-items: center;
         width: 100%;
-
     }
-
 
     .Section1 {
         display: flex;
@@ -740,8 +667,6 @@ h4 {
         align-items: center;
         gap: 2.5rem;
         background-color: var(--green-100);
-
-
     }
 
     .imageTextcontent {
@@ -752,7 +677,6 @@ h4 {
         max-width: 100%;
         margin-bottom: 5.179rem;
         gap: 1.875rem;
-
     }
 
     .imageTextcontentbody {
@@ -763,7 +687,6 @@ h4 {
         max-width: 100%;
         margin-bottom: 5.179rem;
         gap: 1.875rem;
-
     }
 
     .textbutton {
@@ -771,7 +694,6 @@ h4 {
         flex-direction: column;
         align-items: flex-start;
         max-width: 26rem;
-
     }
 
     .illuImg {
@@ -787,14 +709,12 @@ h4 {
     .blacktexth,
     .blacktextp {
         width: 100%;
-
     }
 
     h1 {
         font-size: var(--fs-h3);
         font-family: 'crimson text';
         color: var(--white-100);
-
     }
 
     label {
@@ -830,7 +750,6 @@ h4 {
         flex-direction: column;
     }
 
-
     .colorlogos {
         width: 100%;
         display: flex;
@@ -842,7 +761,6 @@ h4 {
         gap: 2.5rem;
         max-width: 12.5rem;
     }
-
 
     .section4 {
         display: flex;
@@ -867,7 +785,6 @@ h4 {
         justify-content: center;
         align-items: center;
         gap: 2.938rem;
-
     }
 
     .cardIndiv {
@@ -880,7 +797,6 @@ h4 {
         border-radius: 0.313rem;
         gap: 1.125rem;
     }
-
 
     footer {
         display: flex;
@@ -895,7 +811,6 @@ h4 {
         width: 100%;
         display: flex;
         justify-content: center;
-
     }
 
     .footercontent {
@@ -952,8 +867,6 @@ h4 {
         margin-bottom: 1.875rem;
     }
 
-
-
     .servicesconteiner {
         display: flex;
         width: 100%;
@@ -987,7 +900,6 @@ h4 {
         flex-direction: column;
         max-width: 17.438rem;
         text-align: center;
-
     }
 
     .servicecardchecks {
@@ -1002,7 +914,6 @@ h4 {
         flex-direction: row;
         align-items: left;
         gap: 0.25rem;
-
     }
 
     .check {
@@ -1013,9 +924,6 @@ h4 {
         font-size: var(--fs-h1);
         color: var(--black);
     }
-
-
-
 
     input[type=text],
     select,
@@ -1054,14 +962,11 @@ h4 {
         min-width: 0;
     }
 
-
     .contactcontainer {
         display: flex;
         width: 100%;
         justify-content: center;
         padding-bottom: 3.688rem;
-
-
     }
 
     .contactsections {
@@ -1072,9 +977,7 @@ h4 {
         width: 100%;
         max-width: 20.938rem;
         gap: 1.875rem;
-
     }
-
 
     .contactcontent {
         display: flex;
@@ -1082,7 +985,6 @@ h4 {
         gap: 1.313rem;
         text-align: left;
         width: 100%;
-
     }
 
     .map {
@@ -1090,8 +992,4 @@ h4 {
         width: 100%;
     }
 
-
-
-
-
-}
+    

@@ -18,7 +18,6 @@
 
   const panel = overlay.querySelector('.menu-panel');
 
- 
   const sourceList = document.querySelector('.headercontent ul');
   if (sourceList) {
     const menuList = sourceList.cloneNode(true);
@@ -32,6 +31,7 @@
     overlay.setAttribute('aria-hidden', 'false');
     document.body.classList.add('no-scroll');
 
+ 
     const firstLink = panel.querySelector('a, button');
     if (firstLink && firstLink.focus) firstLink.focus();
   }
@@ -43,18 +43,7 @@
     if (hamburger && hamburger.focus) hamburger.focus();
   }
 
+ 
   hamburger.addEventListener('click', openMenu);
   closeBtn.addEventListener('click', closeMenu);
-
-
-  panel.addEventListener('click', (e) => {
-    if (e.target.closest('a')) closeMenu();
-  });
-const form = document.getElementById('form')
-
-form.addEventListener('submit', (event) => {
-  event.preventDefault()
 })();
-
-
-
